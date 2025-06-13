@@ -43,3 +43,10 @@ nav a:hover {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
   border-color: #fff;
 }
+.logo {
+  height: 70px;
+  width: auto;
+  max-width: 100%;
+  margin: 10px auto;
+  display: block;
+}
