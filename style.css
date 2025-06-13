@@ -1,1 +1,10 @@
-/* Main CSS styles */
+
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f5f5f5; color: #333; }
+header { background: #004d00; color: white; padding: 20px; text-align: center; }
+.logo { max-height: 80px; }
+nav a { margin: 0 10px; color: white; text-decoration: none; font-weight: bold; }
+.language-switch { margin-top: 10px; }
+main { padding: 20px; }
+.crops { display: flex; gap: 20px; flex-wrap: wrap; justify-content: center; }
+.crop img { width: 100%; max-width: 200px; height: auto; border: 1px solid #ccc; }
+footer { background: #333; color: white; text-align: center; padding: 10px 0; }
