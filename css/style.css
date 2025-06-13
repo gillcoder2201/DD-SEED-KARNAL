@@ -44,9 +44,8 @@ nav a:hover {
   border-color: #fff;
 }
 .logo {
-  height: 70px;
+  height: 60px;
   width: auto;
-  max-width: 100%;
-  margin: 10px auto;
   display: block;
+  margin: 0 auto;
 }
