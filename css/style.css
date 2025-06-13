@@ -11,3 +11,9 @@ header, footer {
   padding: 10px;
   text-align: center;
 }
+.logo {
+  width: 120px;       /* Size chhota kiya */
+  height: auto;
+  display: block;
+  margin: 10px auto;  /* Center align */
+}
