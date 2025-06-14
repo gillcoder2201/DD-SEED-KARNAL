@@ -152,3 +152,19 @@ nav a:hover {
     width: 100%;
   }
 }
+.language-switcher {
+  text-align: right;
+  padding: 10px 20px;
+  font-size: 14px;
+}
+
+.language-switcher a {
+  margin: 0 5px;
+  color: #2e7d32;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.language-switcher a:hover {
+  text-decoration: underline;
+}
