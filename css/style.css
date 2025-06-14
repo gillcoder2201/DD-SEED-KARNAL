@@ -277,3 +277,78 @@ header {
   }
 }
 */
+/* ===== Top Bar and Logo ===== */
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f4f4f4;
+}
+
+.language-switcher a {
+  margin: 0 5px;
+  text-decoration: none;
+  color: #444;
+  font-weight: bold;
+}
+
+/* ===== Navigation Bar ===== */
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #00704A;
+  padding: 10px;
+  flex-wrap: wrap;
+}
+
+.navbar .nav-link {
+  color: #fff;
+  text-decoration: none;
+  margin: 8px 15px;
+  padding: 8px 16px;
+  border-radius: 25px;
+  background-color: #008f5c;
+  transition: background-color 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+  background-color: #005d3c;
+}
+
+.navbar .active {
+  background-color: #004d2c;
+}
+
+/* ===== Hamburger Menu Button ===== */
+.hamburger {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+  padding: 10px 20px;
+  background-color: #00704A;
+  color: white;
+}
+
+/* ===== Hidden Checkbox for Toggle ===== */
+.menu-toggle {
+  display: none;
+}
+
+/* ===== Responsive Styles ===== */
+@media (max-width: 768px) {
+  .navbar {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu-toggle:checked + .hamburger + .navbar {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;
+    text-align: right;
+  }
+}
