@@ -54,7 +54,26 @@ nav a:hover {
   max-width: 500px;
   height: auto;
   display: block;
-  margin: 20px auto;
+  margin: 0 auto;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.crop-section {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.seed-link {
+  display: inline-block;
+  margin-top: 12px;
+  font-size: 1.1rem;
+  color: #006400;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.seed-link:hover {
+  text-decoration: underline;
+  color: #004d00;
 }
