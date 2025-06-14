@@ -49,3 +49,12 @@ nav a:hover {
   display: block;
   margin: 0 auto;
 }
+.seed-image {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
