@@ -434,7 +434,7 @@ textarea {
   background-color: #256628;
 }
 .hero {
-  background-image: url(./images/hero-bg.jpg); /* change this if image is outside folder */
+  background-image: url(../images/hero-bg.jpg); /* change this if image is outside folder */
   background-size: cover;
   background-position: center;
   position: relative;
