@@ -44,9 +44,22 @@ nav a:hover {
   border-color: #fff;
 }
 .logo {
-  height: 70px; /* ya 80px ya jitna chahiye ho */
-  width: auto; /* proportion maintain karne ke liye */
-  margin-right: 20px;
+  height: 80px;         /* Bigger logo height */
+  width: auto;          /* Maintain aspect ratio */
+  margin-right: 20px;   /* Some space after logo */
+}
+
+.top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+@media (max-width: 600px) {
+  .logo {
+    height: 60px; /* Slightly smaller on mobile */
+  }
 }
 .seed-image {
   width: 100%;
