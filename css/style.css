@@ -433,3 +433,40 @@ textarea {
 .cta-button:hover {
   background-color: #256628;
 }
+.hero {
+  background-image: url(./images/hero-bg.jpg); /* change this if image is outside folder */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.hero-overlay {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
+  padding: 2rem;
+  border-radius: 12px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+
+.hero-buttons .cta-button {
+  margin: 0 0.5rem;
+}
+
+.cta-button.secondary {
+  background-color: transparent;
+  border: 2px solid #fff;
+}
