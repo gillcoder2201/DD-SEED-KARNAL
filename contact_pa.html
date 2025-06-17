@@ -91,28 +91,24 @@
       <h2>DD Seed Karnal ਨਾਲ ਸੰਪਰਕ ਕਰੋ</h2>
       <p>ਕਿਰਪਾ ਕਰਕੇ ਹੇਠਾਂ ਦਿੱਤਾ ਫਾਰਮ ਭਰੋ, ਅਸੀਂ ਜਲਦੀ ਤੁਹਾਡੇ ਨਾਲ ਸੰਪਰਕ ਕਰਾਂਗੇ।</p>
 
-      <form class="contact-form">
-        <div class="form-group">
-          <label for="name">ਪੂਰਾ ਨਾਮ</label>
-          <input type="text" id="name" placeholder="ਆਪਣਾ ਨਾਮ ਦਰਜ ਕਰੋ" />
-        </div>
-
-        <div class="form-group">
-          <label for="phone">ਫ਼ੋਨ ਨੰਬਰ</label>
-          <input type="tel" id="phone" placeholder="ਆਪਣਾ ਫ਼ੋਨ ਨੰਬਰ ਦਰਜ ਕਰੋ" />
-        </div>
-
-        <div class="form-group">
-          <label for="email">ਈਮੇਲ ਐਡਰੈੱਸ</label>
-          <input type="email" id="email" placeholder="ਆਪਣਾ ਈਮੇਲ ਦਰਜ ਕਰੋ" />
-        </div>
-
-        <div class="form-group">
-          <label for="message">ਤੁਹਾਡਾ ਸੁਨੇਹਾ</label>
-          <textarea id="message" rows="5" placeholder="ਇੱਥੇ ਆਪਣਾ ਸੁਨੇਹਾ ਲਿਖੋ..."></textarea>
-        </div>
-
-        <button type="submit" class="cta-button">ਸੁਨੇਹਾ ਭੇਜੋ</button>
+      <form class="contact-form" action="https://formspree.io/f/movwwgog" method="POST">
+  <div class="form-group">
+    <label>ਨਾਂ:</label>
+    <input type="text" name="name" required>
+  </div>
+  <div class="form-group">
+    <label>ਫ਼ੋਨ:</label>
+    <input type="tel" name="phone" required>
+  </div>
+  <div class="form-group">
+    <label>ਈਮੇਲ:</label>
+    <input type="email" name="email" required>
+  </div>
+  <div class="form-group full-width">
+    <label>ਸੁਨੇਹਾ:</label>
+    <textarea name="message" rows="5" required></textarea>
+  </div>
+  <button class="cta-button" type="submit">ਭੇਜੋ</button>
       </form>
     </section>
   </main>
@@ -128,8 +124,8 @@
         <h3>ਤੁਰੰਤ ਲਿੰਕ</h3>
         <ul>
           <li><a href="index_pa.html">ਮੁੱਖ ਪੰਨਾ</a></li>
-          <li><a href="wheat_pa.html">ਗੇਹੂੰ</a></li>
-          <li><a href="paddy_pa.html">ਚੌਲ</a></li>
+          <li><a href="wheat_pa.html"> ਕਣਕ</a></li>
+          <li><a href="paddy_pa.html"> ਝੋਨਾ</a></li>
           <li><a href="contact_pa.html">ਸੰਪਰਕ</a></li>
         </ul>
       </div>
