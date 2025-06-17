@@ -498,3 +498,53 @@ textarea {
 .about-hero p {
   font-size: 1.2rem;
 }
+.wheat-varieties {
+  padding: 2rem;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.section-heading {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #2d2d2d;
+}
+
+.variety-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  justify-items: center;
+}
+
+.variety-card {
+  background: white;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease;
+  max-width: 300px;
+}
+
+.variety-card:hover {
+  transform: translateY(-5px);
+}
+
+.variety-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.variety-card h3 {
+  margin: 0.8rem 0 0.5rem;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.variety-card p {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
